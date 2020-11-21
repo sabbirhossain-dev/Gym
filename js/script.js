@@ -10,11 +10,11 @@ $(window).scroll(function () {
     }
 
 
-//fixed menu start//
+    //fixed menu start//
 
 
 
-//bottom to top start//
+    //bottom to top start//
 
     if ($scrollamout > 1500) {
         $(".btop").fadeIn()
@@ -39,7 +39,7 @@ $(".btop").click(function () {
 $('#banner-part').slick({
     dots: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -106,14 +106,14 @@ $('.testi-slider').slick({
             }
     },
         {
-            breakpoint: 600,
+            breakpoint: 767,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1,
             }
     },
         {
-            breakpoint: 575,
+            breakpoint: 576,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -165,10 +165,11 @@ $('.slider').slick({
             }
     },
         {
-            breakpoint: 480,
+            breakpoint: 576,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                arrows: false,
             }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -207,48 +208,53 @@ $(document).ready(function () {
 
 //class part end//
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//                     logo js start
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+//partner part end//
+
+
 $('.logo-slider .partner').slick({
-  dots: false,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  centerMode: false,
-  arrows: true,
-  prevArrow: '<i class="fa fa-chevron-left leftarrow" aria-hidden="true"></i>' ,
-  nextArrow: '<i class="fa fa-chevron-right rightarrow" aria-hidden="true"></i>',
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    centerMode: false,
+    arrows: true,
+    prevArrow: '<i class="fa fa-chevron-left leftarrow" aria-hidden="true"></i>',
+    nextArrow: '<i class="fa fa-chevron-right rightarrow" aria-hidden="true"></i>',
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
     },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            }
     },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
+        {
+            breakpoint: 576,
+            settings: {
+                arrows: false,
+                autoPlay:true,
+                speed: 300,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+
+            }
     }
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
     // instead of a settings object
   ]
 });
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//                     logo js end
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+//partner part end//

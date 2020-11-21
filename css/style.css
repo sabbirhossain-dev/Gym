@@ -151,7 +151,6 @@ nav ul li a:hover:after {
 #banner-part .banner {
     background: url(../images/banner2.png) no-repeat center;
     background-size: cover;
-    height: 600px;
 }
 
 
@@ -160,7 +159,9 @@ nav ul li a:hover:after {
     height: 100%;
     background: rgb(0, 0, 0, .6);
 }
-
+#banner-part .banner .text{
+    padding-bottom: 130px;
+}
 #banner-part .banner .text h3 {
     color: #fff;
     font-size: 30px;
@@ -211,7 +212,6 @@ nav ul li a:hover:after {
 #banner-part .two {
     background: url(../images/banner1.png) no-repeat center;
     background-size: cover;
-    height: 600px;
 }
 
 
@@ -348,7 +348,6 @@ nav ul li a:hover:after {
 #banner-part .three {
     background: url(../images/banner3.png) no-repeat center;
     background-size: cover;
-    height: 600px;
 }
 
 
@@ -1049,7 +1048,7 @@ banner-part .three .text h3 {
                     logo css start
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 #logo_part{
-    margin-top: 80px;
+    margin: 50px 0;
     position: relative;
 }
 
@@ -1105,64 +1104,6 @@ banner-part .three .text h3 {
 
 
 
-/*partner-part css start*/
-/*partner-part css start*/
-
-
-/*
-
-#partnet-part {
-    margin-bottom: 80px;
-}
-
-#partnet-part .logo {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-
-}
-
-
-#partnet-part .logo .img {
-    width: 90%;
-}
-
-#partnet-part .logo .slick-active {
-    border: 1px solid red;
-}
-
-.leftarrow {
-    font-size: 28px;
-    color: #444444;
-    position: absolute;
-    top: 35%;
-    left: -40px;
-    z-index: 1;
-    transition: .4s;
-}
-
-.rightarrow {
-    font-size: 28px;
-    color: #444444;
-    position: absolute;
-    top: 35%;
-    right: -50px;
-    z-index: 1;
-    transition: .4s;
-}
-
-.leftarrow:hover {
-    color: #e23e38;
-}
-
-.rightarrow:hover {
-    color: #e23e38;
-}
-*/
-
-
-/*partner-part css end*/
-/*partner-part css end*/
 
 
 
