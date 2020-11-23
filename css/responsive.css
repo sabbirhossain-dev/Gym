@@ -137,7 +137,7 @@
 
 
     #team_part {
-        height: 1920px;
+        height: auto;
     }
 
 
@@ -209,9 +209,36 @@
     /*    counter part end*/
 
 
+
+    /*    class part start*/
+    /*    class part start*/
+
+
     .colorful-tab-wrapper {
         padding: 0;
     }
+
+    .colorful-tab-menu {
+        flex-direction: row;
+    }
+
+    #class-part .colorful-tab-menu-item a {
+        font-size: 13px;
+        padding: 15px 20px;
+    }
+
+    #class-part .colorful-tab-content ul li {
+        width: 49.28%;
+        padding: 40px 0;
+    }
+
+    #class-part .colorful-tab-content ul li .time {
+        font-size: 13px;
+    }
+
+    /*    class part end*/
+    /*    class part end*/
+
 
     /*    partner part start*/
     /*    partner part start*/
@@ -459,6 +486,40 @@
     /*    membership part end*/
     /*    membership part end*/
 
+    /*    class part start*/
+    /*    class part start*/
+
+
+    .colorful-tab-wrapper {
+        padding: 0;
+    }
+
+    .colorful-tab-menu {
+        flex-direction: row;
+    }
+
+    #class-part .colorful-tab-menu {
+        margin-bottom: 20px;
+    }
+
+    #class-part .colorful-tab-menu-item a {
+        font-size: 13px;
+        padding: 15px 15px;
+    }
+
+    #class-part .colorful-tab-content ul li {
+        width: 49.28%;
+        padding: 50px 0;
+    }
+
+    #class-part .colorful-tab-content ul li .time {
+        font-size: 13px;
+    }
+
+    /*    class part end*/
+    /*    class part end*/
+
+
 
     /*    counter part start*/
     /*    counter part start*/
@@ -503,54 +564,14 @@
     /*    footer part start*/
 
     #footer-part {
-        height: 1184px;
-    }
-
-
-    #footer-part .overlay h5 {
-        text-align: center;
-    }
-
-    #footer-part .overlay .text {
-        margin-left: 19px;
-    }
-
-    #footer-part .overlay .twitr h6 {
-        margin-left: 50px;
-    }
-
-    #footer-part .overlay .flick-img {
-        text-align: center;
-        width: 425px;
-        margin: 0 auto;
-    }
-    #footer-part .overlay .contact h5{
-        text-align: left;
-    }
-
-    #footer-part .overlay .flick-img h5 {
-        padding-top: 15px;
-    }
-
-    #footer-part .overlay .flick-img .row {
-        margin: 0 auto;
-    }
-
-    #footer-part .overlay .flick-img .cl {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 7px;
+        height: 819px;
     }
 
     #footer-part .overlay .contact .social .scl {
-        text-align: center;
-        padding-top: 110px;
+        margin-top: 58px;
     }
 
-    #footer-part .overlay .contact .social .icon {
-        text-align: center;
-        margin-bottom: 15px;
-    }
+
 
 
     .btop {
@@ -562,6 +583,307 @@
     /*    footer part end*/
     /*    footer part end*/
 
+
+}
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+    /*    nav part start*/
+    /*    nav part start*/
+
+    nav {
+        top: 0;
+        padding: 10px 0 !important;
+    }
+
+    nav img {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    nav .navbar-brand {
+        width: auto;
+        height: auto;
+        background: transparent;
+        position: static;
+        line-height: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    nav ul {
+        text-align: center;
+        background: rgb(0, 0, 0, .8);
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    /*    nav part end*/
+    /*    nav part end*/
+
+
+
+    /*    banner part start*/
+    /*    banner part start*/
+
+
+    #banner-part .banner .text {
+        padding-bottom: 100px;
+    }
+
+    #banner-part .banner .text h3 {
+        font-size: 24px;
+        padding-top: 180px;
+    }
+
+    #banner-part .two .text h3 {
+        font-size: 24px;
+        padding-top: 180px;
+    }
+
+    #banner-part .banner .text a {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+
+    #banner-part .three .text a {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin-right: 20px;
+    }
+
+    #banner-part ul {
+        bottom: 10px;
+    }
+
+    #banner-part .two .text h3:after {
+        display: none;
+    }
+
+    #banner-part .two .text h3:before {
+        display: none;
+    }
+
+    #banner-part .two .text h1:after {
+        display: none;
+    }
+
+    #banner-part .two .text h1:before {
+        display: none;
+    }
+
+    #banner-part .two .text p:after {
+        display: none;
+    }
+
+    #banner-part .two .text p:before {
+        display: none;
+    }
+
+    /*    banner part end*/
+    /*    banner part end*/
+
+    /*    about part start*/
+    /*    about part start*/
+
+    #about-part .title {
+        padding-top: 40px;
+    }
+
+    #about-part .text {
+        width: auto;
+    }
+
+    /*    about part end*/
+    /*    about part end*/
+
+
+    /*    gallery part start*/
+    /*    gallery part start*/
+
+
+    #team_part {
+        height: auto;
+    }
+
+    /*    gallery part end*/
+    /*    gallery part end*/
+
+
+
+
+    /*    testimonial part start*/
+    /*    testimonial part start*/
+
+
+    #testi-part .overlay .item .left {
+        width: 50%;
+    }
+
+    #testi-part .overlay .item .right {
+        width: 50%;
+        padding-left: 0;
+    }
+
+    #testi-part .overlay .text .para {
+        padding-bottom: 50px;
+    }
+
+    #testi-part ul {
+        bottom: 0;
+    }
+
+    /*    testimonial part end*/
+    /*    testimonial part end*/
+
+
+
+
+
+    /*    membership part start*/
+    /*    membership part start*/
+
+
+
+
+    #membership-part {
+        margin-bottom: 20px;
+    }
+
+    #membership-part .box {
+        margin-bottom: 20px;
+    }
+
+    #membership-part .box .top .regular {
+        font-size: 14px;
+    }
+
+    #membership-part .box .top .text {
+        font-size: 45px;
+    }
+
+    #membership-part .box .top .text span {
+        font-size: 24px;
+    }
+
+    #membership-part .box .middle ul li {
+        font-size: 13px;
+    }
+
+    #membership-part .box .btm {
+        font-size: 14px;
+    }
+
+
+    /*    membership part end*/
+    /*    membership part end*/
+
+
+
+    /*    counter part start*/
+    /*    counter part start*/
+
+    #counter-part .overlay .count h2 {
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+
+    #counter-part .overlay .count p {
+        font-size: 15px;
+    }
+
+    /*    counter part end*/
+    /*    counter part end*/
+
+
+    /*    class part start*/
+    /*    class part start*/
+
+
+    .colorful-tab-wrapper {
+        padding: 0;
+    }
+
+    .colorful-tab-menu {
+        flex-direction: row;
+    }
+
+    #class-part .colorful-tab-menu {
+        margin-bottom: 20px;
+    }
+
+    #class-part .colorful-tab-menu-item a {
+        font-size: 13px;
+        padding: 15px 15px;
+    }
+
+    #class-part .colorful-tab-content ul li {
+        width: 49.7%;
+        padding: 50px 0;
+    }
+
+    #class-part .colorful-tab-content ul li .time {
+        font-size: 13px;
+    }
+
+    /*    class part end*/
+    /*    class part end*/
+
+
+
+
+    /*    partner part start*/
+    /*    partner part start*/
+
+
+    #logo_part .img img {
+        width: 100%;
+    }
+
+    .leftarrow {
+        left: -15px;
+    }
+
+    .rightarrow {
+        right: -30px;
+    }
+
+
+    /*    partner part end*/
+    /*    partner part end*/
+
+
+
+
+    /*    footer part start*/
+    /*    footer part start*/
+
+    #footer-part {
+        height: 736px;
+    }
+    #footer-part .overlay .flick-img img{
+        width:60px;
+    }
+    #footer-part .social{
+        margin-top: 9px;
+    }
+
+    .btop {
+        bottom: 15px;
+        right: 10px;
+    }
+
+
+    /*    footer part end*/
+    /*    footer part end*/
 
 
 }

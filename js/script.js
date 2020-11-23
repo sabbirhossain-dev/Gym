@@ -97,12 +97,10 @@ $('.testi-slider').slick({
     arrows: false,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 991,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
+                slidesToShow: 1,
+                slidesToScroll: 1,
             }
     },
         {
@@ -149,19 +147,17 @@ $('.slider').slick({
     nextArrow: '<i class="fa fa-chevron-right rightarrow" aria-hidden="true"></i>',
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 991,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
+                slidesToScroll: 1,
             }
     },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 1,
             }
     },
         {
